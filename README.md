@@ -17,10 +17,13 @@ Este projeto é um chatbot inteligente que combina a API Groq para processar lin
 - Bibliotecas como FastAPI e Groq.
 
 ## Arquitetura
-├── agent_groq_llama3.3.py  # Código usado para testar as integrações e funcionamento do chatbot via CLI
-├── config.py               # Arquivo com as chaves particulares para uso das APIs
-├── main.py                 # Arquivo principal do chatbot que deve ser usado para executar o microserviço
-├── README.md               # Documentação
+├── agent_groq_llama3.3.py  # Código usado para testar as integrações e funcionamento do chatbot via CLI  
+
+├── config.py               # Arquivo com as chaves particulares para uso das APIs  
+
+├── main.py                 # Arquivo principal do chatbot que deve ser usado para executar o microserviço  
+
+├── README.md               # Documentação  
 
 ## Instalação
 - Clone o repositório;
