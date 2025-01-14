@@ -2,13 +2,13 @@
 
 Este projeto é um chatbot inteligente que combina a API Groq para processar linguagem natural e a API TMDb para fornecer informações detalhadas sobre filmes. Com ele, você pode:
 
-- Perguntar sobre elenco, sinopse, avaliação de um determinado filme.
-- Conseguir indicações de filmes com base em um gênero.
+- Perguntar sobre elenco, sinopse, avaliação de um determinado filme;
+- Conseguir indicações de filmes com base em um gênero;
 - Pesquisar informações sobre filmes populares no momento.
 
 ## Tecnologias Utilizadas
-- **Python** para o backend.
-- **Groq API** para processamento de linguagem natural.
+- **Python** para o backend;
+- **Groq API** para processamento de linguagem natural;
 - **TMDB API** para consulta de dados sobre filmes e séries.
 
 ## Pré requisitos
@@ -17,13 +17,13 @@ Este projeto é um chatbot inteligente que combina a API Groq para processar lin
 - Bibliotecas como FastAPI e Groq.
 
 ## Arquitetura
-├── agent_groq_llama3.3.py  # Código usado para testar as integrações e funcionamento do chatbot via CLI  
+|--- agent_groq_llama3.3.py  # Código usado para testar as integrações e funcionamento do chatbot via CLI  
 
-├── config.py               # Arquivo com as chaves particulares para uso das APIs  
+|--- config.py               # Arquivo com as chaves particulares para uso das APIs  
 
-├── main.py                 # Arquivo principal do chatbot que deve ser usado para executar o microserviço  
+|--- main.py                 # Arquivo principal do chatbot que deve ser usado para executar o microserviço  
 
-├── README.md               # Documentação  
+|--- README.md               # Documentação  
 
 ## Instalação
 - Clone o repositório;
